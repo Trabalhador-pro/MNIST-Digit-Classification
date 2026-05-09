@@ -7,7 +7,7 @@ O foco principal foi construir um fluxo completo de classificação, começando 
 
 ---
 
-# 🎯 Objetivo
+# Objetivo
 
 Criar modelos de classificação capazes de identificar corretamente dígitos escritos à mão a partir de imagens em escala de cinza.
 
@@ -20,7 +20,7 @@ Essa divisão permitiu consolidar conceitos fundamentais de avaliação de model
 
 ---
 
-# 📊 Base de Dados
+# Base de Dados
 
 Foi utilizado o dataset **MNIST**, uma das bases mais conhecidas para projetos de classificação de imagens.
 
@@ -42,7 +42,7 @@ from sklearn.datasets import fetch_openml
 
 ---
 
-# 🧾 Estrutura dos Dados
+# Estrutura dos Dados
 
 Cada imagem do MNIST possui dimensão de `28x28` pixels.
 
@@ -62,7 +62,7 @@ A variável alvo representa o dígito correspondente à imagem, podendo assumir 
 
 ---
 
-# 🔎 Etapas do Projeto
+# Etapas do Projeto
 
 As principais etapas realizadas foram:
 
@@ -99,7 +99,7 @@ A padronização foi utilizada principalmente para melhorar o desempenho de mode
 
 ---
 
-# ⚙️ Padronização
+# Padronização
 
 A padronização transforma os dados para que tenham média próxima de `0` e desvio padrão próximo de `1`.
 
@@ -113,7 +113,7 @@ from sklearn.preprocessing import StandardScaler
 
 ---
 
-# 🤖 Modelos Utilizados
+# Modelos Utilizados
 
 Foram utilizados modelos de classificação como:
 
@@ -126,7 +126,7 @@ O `RandomForestClassifier` foi utilizado como modelo alternativo para comparaç�
 
 ---
 
-# 🔢 Classificação Binária
+# Classificação Binária
 
 Inicialmente, o problema foi transformado em uma tarefa de classificação binária.
 
@@ -154,7 +154,7 @@ Essa abordagem permitiu estudar com mais profundidade conceitos como:
 
 ---
 
-# 📊 Validação Cruzada
+# Validação Cruzada
 
 Foi utilizada validação cruzada para avaliar o desempenho do modelo de forma mais robusta.
 
@@ -162,24 +162,7 @@ Essa técnica divide o conjunto de treino em diferentes partes, treinando e aval
 
 Com isso, foi possível obter uma estimativa mais confiável do desempenho do classificador.
 
----
-
-# 📌 Matriz de Confusão
-
-A matriz de confusão foi utilizada para analisar os erros e acertos do modelo.
-
-Ela permite observar:
-
-- verdadeiros positivos;
-- falsos positivos;
-- verdadeiros negativos;
-- falsos negativos.
-
-Essa análise foi essencial para entender melhor o comportamento do modelo além da simples acurácia.
-
----
-
-# 📏 Métricas de Avaliação
+# Métricas de Avaliação
 
 As principais métricas utilizadas foram:
 
@@ -199,7 +182,7 @@ Também foram utilizadas técnicas de apoio, como:
 
 ---
 
-# 🎯 Precision, Recall e F1-score
+# Precision, Recall e F1-score
 
 Durante o projeto, foram analisadas métricas mais adequadas para problemas de classificação, especialmente em cenários onde a acurácia pode ser enganosa.
 
@@ -217,7 +200,7 @@ Representa uma média harmônica entre precision e recall, sendo útil quando é
 
 ---
 
-# 📈 Curva Precision/Recall
+# Curva Precision/Recall
 
 A curva Precision/Recall foi utilizada para analisar a relação entre precisão e recall em diferentes thresholds.
 
@@ -229,7 +212,7 @@ Essa etapa ajudou a visualizar como o modelo se comporta ao priorizar:
 
 ---
 
-# ⚖️ Ajuste de Threshold
+# Ajuste de Threshold
 
 Foi realizado o ajuste do limite de decisão, conhecido como `threshold`.
 
@@ -244,7 +227,7 @@ Essa análise foi importante para entender o trade-off entre:
 
 ---
 
-# 📉 ROC Curve e ROC AUC
+# ROC Curve e ROC AUC
 
 A curva ROC foi utilizada para comparar o desempenho dos classificadores considerando diferentes thresholds.
 
@@ -254,7 +237,7 @@ Essas métricas foram utilizadas para comparar modelos e analisar a qualidade ge
 
 ---
 
-# 🔢 Classificação Multiclasse
+# Classificação Multiclasse
 
 Após a classificação binária, o projeto evoluiu para uma tarefa de classificação multiclasse.
 
@@ -268,7 +251,7 @@ Essa parte do projeto permitiu compreender como algoritmos de classificação li
 
 ---
 
-# 🔍 Análise de Erros
+# Análise de Erros
 
 Foi utilizada uma matriz de confusão normalizada para analisar os erros cometidos pelo modelo na classificação multiclasse.
 
@@ -278,7 +261,7 @@ A análise de erros foi importante para entender limitações do modelo e possí
 
 ---
 
-# 🧠 Conceitos Trabalhados
+# Conceitos Trabalhados
 
 Este projeto ajudou a consolidar conceitos fundamentais de Machine Learning, como:
 
@@ -300,7 +283,7 @@ Este projeto ajudou a consolidar conceitos fundamentais de Machine Learning, com
 
 ---
 
-# 📌 Resultado
+# Resultado
 
 O projeto permitiu construir um fluxo completo de classificação utilizando Machine Learning, passando desde o carregamento das imagens até a análise detalhada das métricas e dos erros do modelo.
 
@@ -321,7 +304,7 @@ Este projeto representa uma etapa importante no meu processo de aprendizado em *
 
 ---
 
-# 🚀 Melhorias Futuras
+# Melhorias Futuras
 
 Pretendo revisitar este projeto futuramente para:
 
@@ -337,7 +320,7 @@ Pretendo revisitar este projeto futuramente para:
 
 ---
 
-# 📚 Aprendizados
+# Aprendizados
 
 Este projeto foi importante para compreender que avaliar modelos de classificação vai muito além da acurácia.
 
