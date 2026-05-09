@@ -1,4 +1,4 @@
-````markdown
+
 # ✍️ Classificação de Dígitos Manuscritos com MNIST - Machine Learning
 
 Este projeto tem como objetivo reconhecer dígitos manuscritos utilizando técnicas de **Machine Learning** aplicadas ao famoso dataset **MNIST**.
@@ -349,4 +349,4 @@ Também foi possível compreender como o ajuste de threshold altera o comportame
 
 
 Mesmo existindo muitas possibilidades de melhoria, esta versão representa uma etapa importante na construção dos meus conhecimentos em Machine Learning.
-````
+
